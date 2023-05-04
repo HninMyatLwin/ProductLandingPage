@@ -1,0 +1,68 @@
+body{
+    background-color: silver;
+}
+.navigation{
+    display: flex;
+    text-align: center;;
+}
+.div1{
+    text-align: center;
+}
+input{
+    display: block;
+    float: none;
+}
+.btn{
+    background-color: yellow;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+.div2{
+    display: block;
+    text-align: center;
+}
+
+.decoration{
+    display: none;
+
+}
+
+.youtube{
+display: flex;
+margin-top: 20px;
+}
+
+.bigDiv{
+    display: flex;
+    margin-top: 20px;
+}
+
+.left{
+    float: left;
+    width: 25%;
+    height: 50%;
+}
+
+.middle{
+    float: middle;
+    width: 25%;
+    height: 50%;
+}
+.right{
+    float: right;
+    width: 25%;
+    height: 50%;
+}
+
+footer{
+    
+    background-color: silver;
+    padding: 10px 10px 0px 10px;
+    position: fixed;
+    width: 100%;
+    
+}
+
