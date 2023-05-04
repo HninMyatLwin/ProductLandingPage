@@ -1,6 +1,9 @@
 body{
     background-color: silver;
 }
+#page-wrapper {
+position: relative; 
+}
 .navigation{
     display: flex;
     text-align: center;;
