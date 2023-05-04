@@ -35,7 +35,7 @@ display: flex;
 margin-top: 20px;
 }
 
-.bigDiv{
+.outsideDiv{
     display: flex;
     margin-top: 20px;
 }
@@ -64,5 +64,9 @@ footer{
     position: fixed;
     width: 100%;
     
+}
+.footerText{
+    text-align: right;
+
 }
 
