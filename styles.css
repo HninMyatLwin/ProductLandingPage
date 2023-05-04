@@ -1,28 +1,37 @@
 body{
     background-color: silver;
+    font-family: 'Lato', sans-serif;
 }
 .navigation{
     display: flex;
     text-align: center;;
 }
 .div1{
-    text-align: center;
+    text-align: right;
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    
+    align-items: center;
 }
-input{
-    display: block;
-    float: none;
+.work{
+    padding: 0px 0px 5px 0px;
 }
-.btn{
-    background-color: yellow;
-    border: none;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
+.feature{
+    display: flex;
+    flex-direction: row;
+    width: 35%;
+    justify-content: space-around;
+    
 }
-.div2{
-    display: block;
-    text-align: center;
+#form{
+    
+        text-align: center;
+    }
+}
+
+#hero{
+    text-align: center;    
 }
 
 .decoration{
@@ -30,36 +39,63 @@ input{
 
 }
 
-.youtube{
-display: flex;
-margin-top: 20px;
-}
 
-.outsideDiv{
+
+#pricing{
     display: flex;
     margin-top: 20px;
+    
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    max-width: 300px;
+    display: flex;
+    text-align: center;
+    margin-top: 15px;
+    position: relative;
+
+}
+.btn{
+    background-color: darkorange;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
 }
 
+h2{
+    text-align: center;
+}
 .left{
     float: left;
-    width: 25%;
-    height: 50%;
+    width: 20%;
+    height: 50%;    
+    border: 1px solid green;
+    margin-left: 180px;
+
 }
 
 .middle{
     float: middle;
-    width: 25%;
+    width: 20%;
     height: 50%;
+    border: 1px solid green;
+    margin-left: 20px;
+
 }
 .right{
     float: right;
-    width: 25%;
+    width: 20%;
     height: 50%;
+    border: 1px solid green;
+    margin-left: 20px;
 }
 
 footer{
     
-    background-color: silver;
+    background-color: white;
     padding: 10px 10px 0px 10px;
     position: fixed;
     width: 100%;
@@ -68,5 +104,8 @@ footer{
 .footerText{
     text-align: right;
 
+}
+.container{
+    text-align: center;
 }
 
